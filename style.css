@@ -116,15 +116,22 @@
 
 
 
+@media(max-width:992px){
+    .body-style{
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
 @media(max-width:768px){
     .body-style{
         width: 90%;
         margin: 0 auto;
     }
 }
-@media(max-width:992px){
-    .body-style{
-        width: 95%;
-        margin: 0 auto;
+
+@media(max-width:575px){
+    .company{
+        margin-top: -200px !important;
     }
 }
